@@ -14,29 +14,29 @@ Develop a robust data analytics solution to securely manage and filter this data
 Ensuring restricted access and enabling efficient analysis of disease withput available treatment or vaccination.
 
 # Features
-Extract data from GCS in CSV format.
-Load raw data into a staging table in BigQuery.
-Transform data into country-specific tables and reporting views.
-Use Apache Airflow to orchestrate the pipeline.
-Generate clean and structured datasets for analysis.
+* Extract data from GCS in CSV format.
+* Load raw data into a staging table in BigQuery.
+* Transform data into country-specific tables and reporting views.
+* Use Apache Airflow to orchestrate the pipeline.
+* Generate clean and structured datasets for analysis.
 
 # Workflow
-Extract: Check for file existence in GCS.
-Load: Load raw CSV data into a BigQuery staging table.
-Transform:
-    Create country-specific tables in the transform layer.
-    Generate reporting views for each country with filtered insights.
+* Extract: Check for file existence in GCS.
+* Load: Load raw CSV data into a BigQuery staging table.
+* Transform:
+       * Create country-specific tables in the transform layer.
+       * Generate reporting views for each country with filtered insights.
 
 # Data Layers
-Staging Layer: Raw data from the CSV file.
-Transform Layer: Cleaned and transformed tables.
-Reporting Layer: Views optimized for analysis and reporting.
+* Staging Layer: Raw data from the CSV file.
+* Transform Layer: Cleaned and transformed tables.
+* Reporting Layer: Views optimized for analysis and reporting.
 
 # Requirements
 # Tools and Services
-Google Cloud Platform (GCP):
+**Google Cloud Platform (GCP):**
     * Google Compute Engine ( for Airflow )
     * BigQuery
     * Cloud Storage
-Apache Airflow:
+**Apache Airflow:**
   * Airflow with Google Cloud providers
