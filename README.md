@@ -24,8 +24,7 @@ Ensuring restricted access and enabling efficient analysis of disease withput av
 * Extract: Check for file existence in GCS.
 * Load: Load raw CSV data into a BigQuery staging table.
 * Transform: Create country-specific tables in the transform layer.
-* View: Generate reporting views for each country with filtered insights. 
-       
+  
 
 # Data Layers
 * Staging Layer: Raw data from the CSV file.
