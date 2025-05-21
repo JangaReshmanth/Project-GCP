@@ -23,20 +23,13 @@ Ensuring restricted access and enabling efficient analysis of disease withput av
 # Workflow
 * Extract: Check for file existence in GCS.
 * Load: Load raw CSV data into a BigQuery staging table.
-* Transform:
-       * Create country-specific tables in the transform layer.
-       * Generate reporting views for each country with filtered insights.
+* Transform: Create country-specific tables in the transform layer.
+* View: Generate reporting views for each country with filtered insights. 
+       
 
 # Data Layers
 * Staging Layer: Raw data from the CSV file.
 * Transform Layer: Cleaned and transformed tables.
 * Reporting Layer: Views optimized for analysis and reporting.
 
-# Requirements
-# Tools and Services
-**Google Cloud Platform (GCP):**
-    * Google Compute Engine ( for Airflow )
-    * BigQuery
-    * Cloud Storage
-**Apache Airflow:**
-  * Airflow with Google Cloud providers
+
